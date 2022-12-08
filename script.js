@@ -7,11 +7,13 @@ Array.prototype.sumOfArray=function(){
     }
     return sum;
 }
-let arr=[1,2,3,4,5,6];
-//const temp1=new Array();
-console.log(arr.sumOfArray());
-String.prototype.vowelsRemover=function(str){
+
+
+
+
+String.prototype.vowelsRemover=function(){
      let result="";
+  let str=this;
      str=str.toUpperCase();
      str=str.split("");
      let vowels=["A","E","I","O","U"];
@@ -26,5 +28,3 @@ String.prototype.vowelsRemover=function(str){
         }
         return result;
 }
-const temp2=new String();
-console.log(temp2.vowelsRemover("hello world hello jasa"))
